@@ -6,7 +6,7 @@ from PIL import Image, ImageOps  # Installing pillow instead of PIL
 import numpy as np
 
 # Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("8553695172:AAEkEsDcE1gSWiHktAzjNKFLveIKDQyTqYA")
+bot = telebot.TeleBot("ТОКЕН")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
